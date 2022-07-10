@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body header {
+    width: 220px;
+    height: 2508px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+li {
+    height: 33px;
+    line-height: 33px;
+    font-family: 'Quicksand';
+    list-style-type: none;
+    border-bottom: 2px solid rgb(229, 232, 236);
+    text-indent: 15px;
+}
+ul {
+    padding: 0;
+    text-indent: 10px;
+}
+li:hover {
+    cursor: pointer;
+    padding-left: 5px;
+    background: linear-gradient(90deg,#ec7c12 2%, #FDF1EB 0% );
+}
+#slaca_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 68px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    height: 68px;
+}
